@@ -81,7 +81,8 @@
 2. เพิ่ม System Variables:
    - JAVA_HOME: ตำแหน่งที่ติดตั้ง JDK
    - SPARK_HOME: ตำแหน่งที่ติดตั้ง Spark
-   - PATH: เพิ่ม %SPARK_HOME%\bin และ %JAVA_HOME%\bin
+   - HADOOP_HOME: ตำแหน่งที่ติดตั้ง winutils
+   - PATH: เพิ่ม %SPARK_HOME%\bin , %JAVA_HOME%\bin และ %HADOOP_HOME%\bin
 
 ### Mac OS
 1. เปิดไฟล์ ~/.zshrc หรือ ~/.bash_profile:

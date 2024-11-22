@@ -36,7 +36,7 @@
 
 ### Windows
 1. ดาวน์โหลด OpenJDK จาก: https://adoptium.net/
-2. เลือกเวอร์ชัน LTS ล่าสุด (เช่น JDK 17 LTS)
+2. เลือกเวอร์ชัน 8 LTS ขึ้นไป (เช่น JDK 8 LTS)
 3. ดาวน์โหลดและติดตั้งตามขั้นตอน
 4. ตรวจสอบการติดตั้ง:
    ```bash
@@ -47,7 +47,7 @@
 1. เปิด Terminal
 2. ติดตั้ง OpenJDK ผ่าน Homebrew:
    ```bash
-   brew install --cask temurin
+   brew install --cask temurin11
    ```
 3. ตรวจสอบการติดตั้ง:
    ```bash
@@ -66,6 +66,13 @@
    ```bash
    brew install apache-spark
    ```
+
+## Download winutils.exe
+
+### Windows
+1. ดาวน์โหลด winutils จาก: https://github.com/cdarlint/winutils/tree/master/hadoop-3.3.6
+2. สร้างโฟลเดอร์ชื่อ "hadoop\bin" ของไดรฟ์ C:
+3. คัดลอกไฟล์ winutils.exe ที่ดาวน์โหลดมาไปยังไดรฟ์ "C:\hadoop\bin"
 
 ## การตั้งค่า Environment Variables
 
